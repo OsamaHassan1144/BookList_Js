@@ -24,6 +24,8 @@ UI.prototype.addBookToList = function(book){
         <td>${book.isbn}</td>
         <td><a href="#" class="delete">X</a></td>`;
 
+    list.append(row);
+
 }
 //Clear Fields
 UI.prototype.clearFields = function(){
