@@ -18,9 +18,6 @@ UI.prototype.addBookToList = function(book){
 
     // console.log(row);
     //Instantiate values of book element
-    // a. Title
-    // b. author
-    // c. isbn
     row.innerHTML = 
     `   <td>${book.title}</td>
         <td>${book.author}</td>
